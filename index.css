@@ -1,0 +1,443 @@
+.container1 {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.web-invisible {
+    display: none;
+}
+.pg1-head1 {
+    font-size: 60px;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+.pg1-head2 {
+    font-size:60px;
+    font-weight:100;
+    color:gray;
+    margin-right: 330px;
+    font-family:"Roboto";
+}
+.pg1-head3 {
+    font-size: 35px;
+    font-family:"Roboto";
+    color: #707070;
+    
+
+}
+.head {
+    margin-bottom: 10px;
+}
+.pg1-btn {
+    border-radius: 50%;
+    background: rgb(243, 67, 3);
+    height: 50px;
+    width: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 5px 11px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    
+}
+.pg1-link {
+    text-decoration: none;
+
+}
+.pg1-cards {
+    display: inline-block;
+    margin-top: 10px;
+}
+.card {
+    display:inline-block;
+    border: 1px lightcoral solid;
+    height: 350px;
+    width: 229px; 
+    border-radius: 10px;
+    margin: 30px;
+    box-shadow: 10px 10px 10px 0 rgba(148, 143, 143, 0.979) ;
+    font-family: sans-serif;
+    
+}
+.boxhead {
+    color: lightcoral;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px gray groove;
+    padding-bottom: 15px;
+    margin-left: 36px;
+}
+.boxtask {
+    text-decoration: line-through;
+    color:red;
+    font-weight: 700;
+    text-align: center;
+    font-size: 23px;
+    text-decoration-thickness: 3px;
+}
+.pg1-checkbox {
+    font-size: 20px;
+}
+
+
+/* INDEX 2 CSS PART */
+
+.container2 {
+    margin-left: 34%;
+    margin-top: -3%;
+
+}
+
+.pg2-heading {
+    
+    font-size: 65px;
+    font-family:sans-serif;
+    font-weight: 750;
+    position: relative;
+    text-align: center;
+    margin: 100px auto;
+    max-width: 700px;
+}
+.pg2-heading:before {
+    content: "";
+    display: block;
+    background: gray;
+    width: 150px;
+    height: 1px;
+    position: absolute;
+    top:50% ;
+    left: 0;
+
+}
+.pg2-heading:after {
+    content: "";
+    display: block;
+    background: gray;
+    width: 150px;
+    height: 1px;
+    position: absolute;
+    top:50% ;
+    right: 0;
+}
+
+.pg2-link {
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 44px 0px 70px 136px;
+    
+}
+.pg2-icon {
+    color: rgb(245, 65, 0);
+    margin-right: 9px;
+    font-size: 36px;
+}
+.pg2-icontext {
+    color: gray;
+    font-size: 36px;
+
+}
+.pg2-card{
+
+    border: 1px lightcoral solid;
+    height: 400px;
+    width: 400px; 
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 10px 10px 10px 0px rgba(148, 143, 143, 0.979) ;
+}
+.pg2-boxhead {
+    color: lightcoral;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px gray groove;
+    padding-bottom: 17px;
+    margin-left: 117px;
+}
+.pg2-boxtask {
+    text-decoration: line-through;
+    color:red;
+    text-decoration-thickness: 3px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkbox {
+     margin-left: 90px;
+     font-size: 21px;
+}
+
+.pg2-button {
+    margin-top: 35%;
+    margin-left: 82%;
+}
+
+
+
+/* INDEX 3 CSS PART AND  INDEX 4 CSS PART */
+
+body,html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.pg34-card {
+    border: 1px lightcoral solid;
+    height: 220px;
+    width: 420px; 
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 0px rgba(148, 143, 143, 0.979) ;
+    color: rgb(233, 64, 3); 
+    margin-left: 38%; 
+    margin-top: 18%;
+    background:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    position: absolute;
+    
+ } 
+.textbox {
+    height: 33px;
+    width: 300px;
+
+}
+.btn {
+    background: coral;
+    border-radius: 22px;
+    border: 0px;
+    color:#ffffff;
+    height: 40px;
+    width: 80px;
+    font-size: 22px;
+}
+
+.blur1 {
+    background-image: url(./image1.png);
+    backdrop-filter: blur(8px);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blur2 {
+    background-image: url(./image2.png); 
+    backdrop-filter: blur(8px);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+/* TO DO APP MOBILE UI */   
+/* Here is the CSS part for mobile user interface */
+
+@media  screen and (max-width:360px) {
+   .mobile-invisible {
+       display: none;
+   }
+   .container1 {
+       margin-left: 20px;
+       margin-top: 40px;
+   }
+   .web-invisible {
+       display: flex;
+       flex-direction: column;
+   }
+
+    .pg1-head1 {
+        font-size: 40px;
+        font-weight: 600;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-top: 0px;
+    }
+    .pg1-head2 {
+        font-size:40px;
+        font-weight:100;
+        color:gray;
+        margin-left: 8px;
+        margin-right:35px;
+        font-family:"Roboto";
+    }
+    .pg1-head3 {
+        display: none;
+    }
+    .pg1-btn {
+        border-radius: 50%;
+        background: rgb(243, 67, 3);
+        height: 50px;
+        width: 50px;
+        text-decoration: none;
+        font-size: 19px;
+        padding: 8px 13px;
+        margin-top: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #ffffff;
+        margin-left: 0px;
+
+        
+    }
+    .pg1-link {
+        text-decoration: none;
+    
+    }
+    .pg1-cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .card {
+        border:0px;
+        height: 60px;
+        width: 280px; 
+        border-radius: 10px;
+        margin: 5px;
+        box-shadow: 3px 3px 3px 0 rgba(148, 143, 143, 0.979) ;
+        font-family: sans-serif;
+        margin-top: 26px;
+        border: 0.1em solid rgba(240, 128, 128, 0.418);
+        
+    }
+    .boxhead {
+        color:#707070;
+        font-size: 18px;
+        font-family: "Roboto";
+        padding-bottom: px;
+        border-bottom: 0px;
+    }
+
+    /* Css html 2 */
+    
+    .container2 {
+        margin-left: 0px;
+        margin-top: 0px;
+    
+    }
+    
+    .pg2-heading {
+        
+        font-size: 37px;
+        font-family:sans-serif;
+        font-weight: 750;
+        text-align: center;
+        margin: 0px;
+        margin-top: 48px;
+    }
+    .pg2-heading:before {
+        display: none;
+    }
+    .pg2-heading:after {
+        display: none;
+    }
+    
+    .pg2-link {
+        font-size: x-large;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        margin-top: -39px;
+        margin-left: 18px;
+        
+    }
+    .pg2-icon {
+        color: rgb(245, 65, 0);
+        margin-right: 9px;
+        font-size: 36px;
+    }
+    .pg2-icontext {
+        display:none;
+    
+    }
+    .pg2-card{
+    
+        border: 1px coral solid;
+        height: 394px;
+        width: 245px; 
+        border-radius: 10px;
+        margin: 10px;
+        box-shadow: 5px 5px 5px 0px rgba(148, 143, 143, 0.979) ;
+        margin-top: 70px;
+        margin-left: 55px;
+    }
+    .pg2-boxhead {
+        color: lightcoral;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-bottom: 2px gray groove;
+        padding-bottom: 13px;
+        margin-left: 63px;
+    }
+    .pg2-boxtask {
+        text-decoration: line-through;
+        color:red;
+        text-decoration-thickness: 3px;
+        font-weight: 700;
+        text-align: center;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .checkbox {
+         margin-left: 24px;
+         font-size: 20px;
+    }
+    
+    .pg2-button {
+        margin-top: 176px;
+        margin-left: 191px;
+    }
+
+
+    /* CSS FOR HTML 3 */
+    /* INDEX 3 CSS PART AND  INDEX 4 CSS PART */
+
+body,html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.pg34-card {
+    border: 1px lightcoral solid;
+    height: 177px;
+    width: 331px; 
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px 0px rgba(148, 143, 143, 0.979) ;
+    color: rgb(233, 64, 3); 
+    margin-left: 13px; 
+    margin-top: 237px;
+    background:#ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    
+ } 
+.textbox {
+    height: 31px;
+    width: 194px;
+
+}
+.btn {
+    background: coral;
+    border-radius: 22px;
+    border: 0px;
+    color:#ffffff;
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+}
+
+.blur1 {
+    background-image: url(./image3.png);
+    backdrop-filter: blur(8px);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blur2 {
+    background-image: url(./image4.png); 
+    backdrop-filter: blur(8px);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+}
